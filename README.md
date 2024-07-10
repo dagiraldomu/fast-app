@@ -6,10 +6,8 @@
 - [Features](#features)
 - [Installation](#installation)
 - [Usage](#usage)
-- [Running Tests](#running-tests)
 - [Deployment](#deployment)
 - [Contributing](#contributing)
-- [License](#license)
 
 ## Introduction
 FastAPI is a modern, fast (high-performance), web framework for building APIs with Python 3.7+ based on standard Python type hints.
@@ -29,8 +27,8 @@ FastAPI is a modern, fast (high-performance), web framework for building APIs wi
 ### Steps
 1. Clone the repository:
     ```bash
-    git clone 
-    cd 
+    git clone https://github.com/dagiraldomu/fast-app.git
+    cd fast-app
     ```
 
 2. Create and activate a virtual environment:
@@ -57,13 +55,6 @@ The API will be available at `http://127.0.0.1:8000`.
 - Swagger UI: `http://127.0.0.1:8000/docs`
 - ReDoc: `http://127.0.0.1:8000/redoc`
 
-## Running Tests
-To run integration tests, use:
-```bash
-cd tests
-pytest
-```
-
 ## Deployment
 ### Using Docker
 1. Build the Docker image:
@@ -88,5 +79,3 @@ Contributions are welcome! Please follow these steps to contribute:
 5. Push to the branch (`git push origin feature/your-feature`).
 6. Open a Pull Request.
 
-## License
-This project is licensed under the MIT License.
