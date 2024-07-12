@@ -1,9 +1,9 @@
 from fastapi import APIRouter, Depends, HTTPException
 from sqlalchemy.orm import Session
 from typing import List
-from schemas.items_schemas import Item, ItemCreate
-from services.items_service import create_new_item, fetch_item, fetch_items
-from models.items import get_db
+from app.schemas.items_schemas import Item, ItemCreate
+from app.services.items_service import create_new_item, fetch_item, fetch_items
+from app.models.items import get_db
 
 
 # Define router object

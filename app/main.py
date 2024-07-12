@@ -1,5 +1,5 @@
 from fastapi import FastAPI
-from routers.items import router  # Import the router object
+from app.routers.items import router  # Import the router object
 
 app = FastAPI(title="App", description="Service to manage Items")
 

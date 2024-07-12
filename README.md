@@ -47,7 +47,7 @@ FastAPI is a modern, fast (high-performance), web framework for building APIs wi
 ### Running the Development Server
 To start the development server, run:
 ```bash
-uvicorn main:app --host 0.0.0.0 --port 8000
+uvicorn app.main:app --host 0.0.0.0 --port 8000
 ```
 The API will be available at `http://127.0.0.1:8000`.
 
